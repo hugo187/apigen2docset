@@ -15,7 +15,7 @@ The script does the following operations:
 Requirements
 -------------
 
-The script requires [docsetutil](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/Xcode-3.2.1/man1/docsetutil.1.html) installed in the following location: `/Applications/Xcode.app/Contents/Developer/usr/bin/docsetutil`. Please adjust [`docsetutil`](https://github.com/hugo187/apigen2docset/blob/master/apigen2docset.sh#L22) variable if you have Xcode tools installed in different location. 
+The script requires [docsetutil](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/Xcode-3.2.1/man1/docsetutil.1.html) installed in the following location: `/Applications/Xcode.app/Contents/Developer/usr/bin/docsetutil`. Please adjust [`docsetutil`](https://github.com/hugo187/apigen2docset/blob/master/apigen2docset.sh#L27) variable if you have Xcode tools installed in different location. 
 
 The script can convert documentation generated using __ApiGen 2.6.1__ and __default template__.
 
