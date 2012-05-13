@@ -24,7 +24,7 @@ Usage
 
 `apigen2docset directory`
 
-You have to specify a directory where ApiGen documentation is located. Directory name is used as name for generated Docset bundle. Files in source directory are not be modified. 
+You have to specify a directory where ApiGen documentation is located. Directory name is used as name for generated Docset bundle. Files in source directory are not modified. 
 
 Example
 -------
