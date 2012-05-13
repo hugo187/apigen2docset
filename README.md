@@ -33,4 +33,9 @@ Example
 
 will generate `Nette-API.docset`
 
-![Sample screenshot](/readme_resources/screnshot.png)
+Screenshot
+----------
+
+Screenshot of ApiGen documentation viewed using [Dash](http://kapeli.com/dash/) - snippet manager and documentation browser for OS X.
+
+![Sample screenshot](https://github.com/hugo187/apigen2docset/raw/master/readme_resources/screnshot.png)
