@@ -109,12 +109,11 @@ cp -R "$source_dir/resources/" "$html_dir/resources"
 # remove unnecessary html fragments (left menu) and put modified files to documents directory
 #
 
-find "$source_dir"/*.html -print0 | while read -d $'\0' file
+find "$source_dir" -type f -name '*.html' -print0 | while read -d $'\0' file
 do
 	awk '/<!DOCTYPE html>/,/<body>/' "$file" > "${html_dir}/${file##*/}"
 	awk '/<div id="right">/,/<\/html>/' "$file" >> "${html_dir}/${file##*/}"
 done
-
 
 
 #
