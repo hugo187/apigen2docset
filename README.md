@@ -47,12 +47,12 @@ I have already created some docsets for my personal usage. If you want, you can 
 
 ### Nette Framework API
 
-[`https://raw.github.com/hugo187/apigen2docset/master/feeds/nette_framework.xml`](https://raw.github.com/hugo187/apigen2docset/master/feeds/nette_framework.xml)
+`https://raw.github.com/hugo187/apigen2docset/master/feeds/nette_framework.xml`
 
 ### Nette Framework API (prefixed PHP 5.2 version)
 
-[`https://raw.github.com/hugo187/apigen2docset/master/feeds/nette_framework_prexied.xml`](https://raw.github.com/hugo187/apigen2docset/master/feeds/nette_framework_prexied.xml)
+`https://raw.github.com/hugo187/apigen2docset/master/feeds/nette_framework_prefixed.xml`
 
 ### Zend Framework API
 
-[`https://raw.github.com/hugo187/apigen2docset/master/feeds/zend_framework.xml`](https://raw.github.com/hugo187/apigen2docset/master/feeds/zend_framework.xml)
+`https://raw.github.com/hugo187/apigen2docset/master/feeds/zend_framework.xml`
