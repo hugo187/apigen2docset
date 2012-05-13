@@ -39,7 +39,7 @@ fi
 
 
 #
-# make bundle directory structure
+# create bundle directory structure
 #
 mkdir -p "$docset_dir/Contents/Resources/Documents/"
 
@@ -82,7 +82,7 @@ EOF
 cp -R "$source_dir/resources/" "$html_dir/resources"
 
 #
-# remove unneeded html fragments (left menu) and put modified files to documents directory
+# remove unnecessary html fragments (left menu) and put modified files to documents directory
 #
 for i in ${source_dir}/*.html
 do
