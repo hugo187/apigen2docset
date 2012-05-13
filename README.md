@@ -7,7 +7,7 @@ The script does the following operations:
 
 - Creates docset bundle directory structure.
 - Creates required bundle files (info.plist, nodes.xml, etc.).
-- Removes unnecessary html fragments (left navigation menu) and puts modified files to corresponding bundle subdirectory.
+- Removes unnecessary html fragments (left navigation menu) from documentation files and puts modified files to corresponding bundle subdirectory.
 - Modifies documentation CSS file (to hide unnecessary search bar).
 - Creates token XML file by searching index.html for class, interface, exception and function names.
 - Converts token XML file to documentation index using [docsetutil](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/Xcode-3.2.1/man1/docsetutil.1.html).
@@ -24,14 +24,14 @@ Usage
 
 `apigen2docset directory`
 
-You have to specify a directory where ApiGen documentation is located. Directory name will be used as name for generated Docset bundle. Files in source directory are not modified. 
+You have to specify a directory where ApiGen documentation is located. Directory name is used as name for generated Docset bundle. Files in source directory are not be modified. 
 
 Example
 -------
 
 `./apigen2docset.sh ~/docs/Nette-API`
 
-will generate `Nette-API.docset`
+will generate `Nette-API.docset` bundle.
 
 Screenshot
 ----------
