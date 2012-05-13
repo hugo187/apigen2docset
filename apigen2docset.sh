@@ -170,3 +170,13 @@ rm exceptions.tmp
 rm functions.tmp
 rm "$tokens_xml"
 
+
+
+#
+# compress generated bundle
+#
+
+tar --exclude='.DS_Store' -czf "${source_dir##*/}".tgz "$docset_dir"
+
+
+
