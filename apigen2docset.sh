@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# process.sh by Petr Dvorak 
+# apigen2docset.sh by Petr Dvorak (https://github.com/hugo187/apigen2docset)
 # based on script by Robin Zhong 
 #
 
